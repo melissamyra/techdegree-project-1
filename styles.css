@@ -161,18 +161,15 @@ header .profile-image:hover {
   margin-top: 30px;
 }
 
-.gallery-1 {
+.gallery-1, .gallery-2 {
   background: url('images/1.jpg') no-repeat top center;
-  background-size: contain;
+  background-size: cover;
   height: 480px;
   width: 400px;
 }
 
 .gallery-2 {
   background: url('images/2.jpg') no-repeat top center;
-  background-size: contain;
-  height: 480px;
-  width: 400px;
 }
 
 
