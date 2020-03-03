@@ -166,12 +166,26 @@ header .profile-image:hover {
   background-size: cover;
   height: 480px;
   width: 400px;
+  position: relative;
 }
 
 .gallery-2 {
   background: url('images/2.jpg') no-repeat top center;
 }
 
+.gallery-1 h2, .gallery-2 h2 {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: none;
+  padding: 0;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
 
 footer {
   width: 100%;
